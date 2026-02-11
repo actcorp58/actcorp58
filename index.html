@@ -6,7 +6,7 @@
 
 <title>Anniston Computer Technologies | Anniston, AL PC Repair & Custom Builds</title>
 
-<meta name="description" content="Anniston Computer Technologies provides computer repair, custom PC builds, upgrades, and IT services in Anniston, Alabama.">
+<meta name="description" content="Anniston Computer Technologies provides computer repair, console repair, custom PC builds, upgrades, and IT services in Anniston, Alabama.">
 <meta name="keywords" content="Anniston computer repair, custom PC builds, gaming PCs, IT services, data recovery">
 <meta name="author" content="Anniston Computer Technologies">
 
@@ -24,7 +24,6 @@ body {
   margin: 0;
   font-family: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
   color: #222;
-
 
   background:
     linear-gradient(rgba(245,248,252,0.9), rgba(245,248,252,0.9)),
@@ -182,18 +181,33 @@ body {
 
 .socials {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
-  margin-top: 14px;
+  gap: 20px;
+  margin: 30px auto 40px auto;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .socials a {
-  font-size: 20px;
   color: #007bb5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: 0.2s;
 }
 
 .socials a:hover {
   color: #ffd200;
+  background: rgba(255,255,255,0.15);
+}
+
+.socials i {
+  font-size: 18px;
 }
 
 </style>
@@ -204,18 +218,19 @@ body {
 <div class="top-info">
   Based in <strong>Anniston, AL</strong> |
   Phone: (256) 294-7444‬ |
-  <a href="mailto:info@act.9-5.xyz">info@act.9-5.xyz</a>
+  <a href="mailto:info@act.9-5.xyz">info@act.9-5.xyz</a> |
+  <strong>Hours:</strong> Mon–Fri 9am–5pm
 </div>
 
 <div class="accordion">
 
 <!-- ABOUT -->
 <section class="section">
-<button class="accordion-header"><i class="fas fa-info-circle"></i> About Us</button>
-<div class="accordion-content">
-<p><strong>Anniston Computer Technologies (ACT)</strong> is a full-service computer repair and custom PC company serving Anniston, Alabama.</p>
-<p>We focus on fast turnaround, honest service, and builds that last.</p>
-</div>
+  <button class="accordion-header"><i class="fas fa-info-circle"></i> About Us</button>
+  <div class="accordion-content">
+    <p><strong>Anniston Computer Technologies (ACT)</strong> is a full-service computer repair and custom PC company serving Anniston, Alabama.</p>
+    <p>In addition to PCs, we also specialize in <strong>gaming console</strong> and <strong>mobile phone repairs</strong>. Our team is committed to <strong>fast turnaround</strong>, <strong>honest service</strong>, and delivering builds that are reliable and long-lasting.</p>
+  </div>
 </section>
 
 <!-- SERVICES -->
@@ -228,6 +243,7 @@ body {
 <li>Data Recovery & Backup Solutions</li>
 <li>Network Setup & Support</li>
 <li>Software Installation & Troubleshooting</li>
+<li>Console Repair (PlayStation, Xbox, Nintendo)</li>
 </ul>
 </div>
 </section>
@@ -237,10 +253,10 @@ body {
 <button class="accordion-header"><i class="fas fa-box"></i> Current Stock</button>
 <div class="accordion-content">
 <ul>
-<li>Desktop Towers – $800</li>
+<li>Desktop Towers – $800-1500</li>
 <li>Gaming Laptops – $1200</li>
 <li>512GB SSD – $90</li>
-<li>16GB RAM Kits – $75</li>
+<li>16GB RAM Kits – $150</li>
 </ul>
 </div>
 </section>
@@ -264,30 +280,24 @@ body {
 <button class="accordion-header"><i class="fas fa-truck"></i> Send-In Service</button>
 <div class="accordion-content">
 <div class="send-in">
+<p><strong>Important:</strong> Please <strong>contact us before shipping</strong> your PC or console. </p>
 <ol>
-<li>Securely package your PC</li>
+<li>Securely package your device</li>
 <li>Include contact info and issue description</li>
-<li>Ship to: 1101 Quintard Ave, Anniston, AL 36201-4632</li>
+<li>Ship to: <strong>PO Box XXXX, 1101 Quintard Ave, Anniston, AL 36201-4632</strong></li>
 </ol>
 <p>We’ll diagnose and contact you with a quote.</p>
 </div>
+</section>
 
-<div class="socials">
-  <a href="https://www.facebook.com/profile.php?id=61586850560941" target="_blank" aria-label="Facebook">
-    <i class="fab fa-facebook"></i>
-  </a>
-  <a href="https://www.instagram.com/annistoncomputertech" target="_blank" aria-label="Instagram">
-    <i class="fab fa-instagram"></i>
-  </a>
-  <a href="#" aria-label="Twitter">
-    <i class="fab fa-twitter"></i>
-  </a>
-  <a href="#" aria-label="YouTube">
-    <i class="fab fa-youtube"></i>
-  </a>
 </div>
 
-
+<!-- SOCIAL LINKS AT BOTTOM -->
+<div class="socials">
+  <a href="https://g.page/r/CWV08noWNaO_EBM/review" target="_blank" aria-label="Google Reviews"><i class="fas fa-map-marker-alt"></i> Google Reviews</a>
+  <a href="https://www.facebook.com/profile.php?id=61586850560941" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i> Facebook</a>
+  <a href="https://www.instagram.com/annistoncomputertech" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+  <a href="https://www.youtube.com/@annistoncomputertech" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i> YouTube</a>
 </div>
 
 <script>
@@ -309,6 +319,3 @@ document.querySelectorAll(".accordion-header").forEach(btn=>{
 
 </body>
 </html>
-
-
-
